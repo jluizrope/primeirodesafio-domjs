@@ -7,24 +7,33 @@ let imagesList = [
 	},
 	{ 
 		img: 'https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg',
-		title: 'AN INITIAL EXAMPLE'
+		title: 'AN INITIAL EXAMPLE',
+		text: 'This is just an example that I got from the internet to show the JS code'
 
 	},
 	{
 		img: 'https://as1.ftcdn.net/jpg/01/87/07/58/500_F_187075892_2YDNhbbk2W7Mzd9iP8XFiYXHaQcnwgvo.jpg',
-		title: 'AN AIM TO ACHIVE'
+		title: 'AN AIM TO ACHIVE',
+		text: 'My aim: an attractive code to achieve the best of JS to be the best for all the world and humanity'
 	},
 	{
 		img: 'https://cdn.pixabay.com/photo/2016/09/26/09/08/binary-1695475_960_720.jpg',
-		title: 'GLOBE IN PROGRAM'
+		title: 'GLOBE IN PROGRAM',
+		text: 'World has become totally envolved by internet, its codes and the artificial intelligence'
 	}
 ]
 
 let counter=0
 
 let left = document.getElementById('left')
-let img=document.getElementById('img')
-let right=document.getElementById('right')
+let img = document.getElementById('img')
+let right = document.getElementById('right')
+
+let left = document.getElementById('left')
+let title = document.getElementById('h1')
+
+let right = document.getElementById('left')
+let text = document.getElementById("p")
 
 left.addEventListener('click', function(){
 	console.log('click')

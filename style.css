@@ -3,11 +3,14 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+.body{
+	background-color: green;
+}
 .main{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background: purple;
+	background: green;
 }
 .mainimag01{
 	width: 70vw;
