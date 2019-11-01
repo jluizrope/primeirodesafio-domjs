@@ -29,10 +29,7 @@ let left = document.getElementById('left')
 let img = document.getElementById('img')
 let right = document.getElementById('right')
 
-let left = document.getElementById('left')
 let title = document.getElementById('h1')
-
-let right = document.getElementById('left')
 let text = document.getElementById("p")
 
 left.addEventListener('click', function(){
